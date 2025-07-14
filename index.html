@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Ruch | فود رش</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Food Ruch</h1>
+      <nav>
+        <ul>
+          <li><a href="#home" data-en="Home" data-ar="الرئيسية">الرئيسية</a></li>
+          <li><a href="#menu" data-en="Menu" data-ar="القائمة">القائمة</a></li>
+          <li><a href="#gallery" data-en="Gallery" data-ar="الصور">الصور</a></li>
+          <li><a href="#order" data-en="Order Online" data-ar="طلب أونلاين">طلب أونلاين</a></li>
+          <li><a href="#reservation" data-en="Reservations" data-ar="الحجوزات">الحجوزات</a></li>
+          <li><a href="#location" data-en="Location" data-ar="الموقع">الموقع</a></li>
+          <li><a href="#contact" data-en="Contact" data-ar="اتصل بنا">اتصل بنا</a></li>
+        </ul>
+      </nav>
+      <button id="lang-toggle">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2 data-en="Welcome to Food Ruch" data-ar="مرحبًا بكم في فود رش">مرحبًا بكم في فود رش</h2>
+      <p data-en="Delicious taste, cozy place!" data-ar="مذاق رائع، ومكان مريح!">مذاق رائع، ومكان مريح!</p>
+    </section>
+
+    <section id="menu">
+      <h2 data-en="Our Menu" data-ar="قائمة الطعام">قائمة الطعام</h2>
+      <ul>
+        <li data-en="Grilled Chicken - 100 EGP" data-ar="دجاج مشوي - 100 جنيه">دجاج مشوي - 100 جنيه</li>
+        <li data-en="Beef Shawarma - 90 EGP" data-ar="شاورما لحم - 90 جنيه">شاورما لحم - 90 جنيه</li>
+        <li data-en="Falafel Plate - 50 EGP" data-ar="طبق فلافل - 50 جنيه">طبق فلافل - 50 جنيه</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2 data-en="Gallery" data-ar="معرض الصور">معرض الصور</h2>
+    </section>
+
+    <section id="order">
+      <h2 data-en="Order Online" data-ar="طلب أونلاين">طلب أونلاين</h2>
+      <form>
+        <input type="text" placeholder="اسمك" data-en-placeholder="Your Name">
+        <input type="text" placeholder="الطلب" data-en-placeholder="Your Order">
+        <button type="submit">إرسال</button>
+      </form>
+    </section>
+
+    <section id="reservation">
+      <h2 data-en="Reserve a Table" data-ar="احجز طاولة">احجز طاولة</h2>
+      <form>
+        <input type="text" placeholder="الاسم" data-en-placeholder="Name">
+        <input type="datetime-local">
+        <button type="submit">احجز الآن</button>
+      </form>
+    </section>
+
+    <section id="location">
+      <h2 data-en="Find Us" data-ar="الموقع">الموقع</h2>
+      <iframe src="https://maps.google.com/maps?q=cairo&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300"></iframe>
+    </section>
+
+    <section id="contact">
+      <h2 data-en="Contact Us" data-ar="اتصل بنا">اتصل بنا</h2>
+      <p data-en="Phone: 01000000000" data-ar="الهاتف: 01000000000">الهاتف: 01000000000</p>
+      <p data-en="Address: Cairo, Egypt" data-ar="العنوان: القاهرة، مصر">العنوان: القاهرة، مصر</p>
+    </section>
+  </main>
+</body>
+</html>
